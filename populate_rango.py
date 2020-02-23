@@ -8,7 +8,7 @@ from rango.models import Category, Page
 
 def populate():
     # First, we will create lists of dictionaries containing the pages
-    # we want to add into each category.
+    ## we want to add into each category.
     # Then we will create a dictionary of dictionaries for our categories.
     # This might seem a little bit confusing, but it allows us to iterate
     # through each data structure, and add the data to our models.
